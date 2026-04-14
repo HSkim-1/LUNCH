@@ -64,7 +64,7 @@
 <br>
 
 <button class="btn" onclick="pickMenu()">🍽️ 뽑기</button>
-<button class="btn toggle" onclick="toggleVegan()">🥗 김권지 동행: OFF</button>
+<button class="btn toggle" onclick="toggleVegan()">🥗 비건 동행: OFF</button>
 
 <div id="rolling"></div>
 <div id="result"></div>
@@ -125,7 +125,7 @@ let veganOnly = false;
 function toggleVegan() {
     veganOnly = !veganOnly;
     document.querySelector(".toggle").innerText =
-        "🥗 김권지 동행: " + (veganOnly ? "ON" : "OFF");
+        "🥗 비건 동행: " + (veganOnly ? "ON" : "OFF");
 }
 
 // 🎯 랜덤 선택
